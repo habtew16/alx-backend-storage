@@ -1,0 +1,2 @@
+// all matches of the given param
+db.school.findAll({name="Holberton school"});
