@@ -1,0 +1,2 @@
+// count number of docs in db
+db.school.find().count();
