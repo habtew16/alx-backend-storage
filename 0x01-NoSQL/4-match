@@ -1,2 +1,2 @@
 // all matches of the given param
-db.school.findAll({name="Holberton school"});
+db.school.find({name="Holberton school"}).forEach(printjson);
